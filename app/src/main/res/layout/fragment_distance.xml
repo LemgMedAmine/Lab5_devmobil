@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputDist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valeur"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnDist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir"/>
+
+    <TextView
+        android:id="@+id/resultDist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
